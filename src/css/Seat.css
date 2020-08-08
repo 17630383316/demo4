@@ -1,0 +1,66 @@
+.seat{
+	display: flex;
+	justify-content: center;
+	background-color: #F5F5F5;
+}
+.seatBox{
+	width: 1200px;
+	margin-bottom: 20px;
+}
+.seatDiv img{
+	width: 8px;
+	height: 8px;
+	padding: 0 8px;
+}
+.seatDiv p{
+	font-size: 12px;
+	padding-left: 24px;
+	line-height: 80px;
+}
+.seatCont1{
+	display: flex;
+	justify-content: space-between;
+}
+.seatRight li img{
+    width: 20px;
+    height: 20px;
+}
+.p1{
+	font-size: 12px;
+	background-color: #DDDDDD;
+	text-align: center;
+	height: 28px;
+	line-height: 28px;
+}
+.seatRight{
+	background-color: #EFEFEF;
+}
+
+.seatRight ul li{
+	display: flex;
+	border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 16px 0;
+    width: 200px;
+}
+.seatRight li p{
+	font-size: 12px;
+}
+.seatRight li div:first-child{
+	padding-left: 12px;
+	padding-right: 6px;
+}
+.seatRight button{
+	margin-top: 10px;
+	font-size: 11px;
+	width: 100px;
+	height: 32px;
+	line-height: 32px;
+	background-color: red;
+	border: none;
+	border-radius: 5px;
+}
+.seatRight button a{
+	color: white;
+}

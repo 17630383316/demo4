@@ -1,0 +1,142 @@
+.yaogun{
+	display: flex;
+	justify-content:center;
+	background-color: #F5F5F5;
+}
+.indexBox{
+	width: 1200px;
+}
+.indexTou{
+	padding-bottom: 20px;
+}
+.indexTou,.indexCont,.indexCont3{
+	margin-top: 20px;
+	background-color: white;
+	
+}
+.indexP{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.indexP img{
+	padding-top: 10px;
+}
+.indexTou ul,.indexCont ul{
+	display: flex;
+	justify-content: space-between;
+}
+.indexTou p{
+	font-size: 12px;
+	padding-top: 10px;
+	padding-left: 3px;
+}
+.indexTou p:last-child{
+	color: #CCCCCC;
+	padding-bottom: 7px;
+}
+.indexTou span{
+	color: black;
+}
+.indexCont{
+	padding-bottom: 20px;
+}
+.list{
+	width: 560px;
+	height: 514px;
+}
+.list ul{
+	height: 514px;
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.indexCont1{
+	padding-top: 20px;
+}
+.tiyuCont2 {
+	background-color: white;
+	margin-top: 30px;
+}
+.p1 span{
+	display: inline-block;
+	width: 186px;
+	height: 50px;
+	border: 1px solid #EAEAEA;
+	text-align: center;
+	line-height: 50px;
+}
+.p1 span:first-child{
+	color: red;
+	border-top: 1px solid red;
+}
+.cont{
+	display: flex;
+	justify-content: center;
+}
+.cont ul{
+	width: 1140px;
+	height: 234px;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: wrap;
+	align-content: space-between;
+	margin-bottom: 30px;
+}
+.cont li {
+	display: flex;
+}
+.cont p{
+	padding-left: 8px;
+	font-size: 13px;
+}
+.cont p:first-child{
+	padding-top: 5px;
+}
+.cont p:nth-child(2){
+	padding-top: 10px;
+	padding-bottom:25px;
+	color: #737373;
+	font-size: 10px;
+}
+.cont p span{
+	font-size: 18px;
+	padding-right: 5px;
+}
+.indexCont3 ul{
+	display: flex;
+   justify-content: space-between;
+}
+.list2{
+	display: flex;
+	width: 265px;
+}
+.indexCont3{
+	padding-bottom: 20px;
+}
+.ul1{
+display: flex;
+flex-wrap: wrap;
+align-content: space-between;	
+height: 367px;
+width: 866px;
+}
+.ul1 p{
+	font-size: 12px;
+	color: #4B5160;
+	padding-bottom: 6px;
+}
+.ul1 p:first-child{
+	color: black;
+	padding-bottom: 42px;
+	
+}
+.indexCont4{
+	padding: 20px 0;
+	
+}
+.indexCont5{
+	padding-bottom: 20px;
+	
+}

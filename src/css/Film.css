@@ -1,0 +1,329 @@
+.film{
+	display: flex;
+	justify-content: center;
+	background-color: #F6F6F6;
+}
+.filmBox{
+	width: 1200px;
+	
+}
+.one img{
+	width: 8px;
+	height: 8px;
+	padding:0 8px;
+}
+
+.one p{
+	font-size: 12px;
+	padding-left: 24px;
+	line-height: 50px;
+}
+
+.filmHeader{
+	background-color: white;
+}
+.filmHeader ul{
+	display: flex;
+	padding-top:33px ;
+}
+.filmHeader li:nth-child(2) img{
+	width: 12px;
+	height: 12px;
+	
+}
+.filmHeader li:first-child {
+	padding: 0 20px;
+}
+.p1{
+	font-size: 12px;
+}
+.yuan{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	border: 1px solid red;
+	text-align: center;
+	line-height: 24px;
+	margin-left: 10px;
+	margin-left: 30px;
+}
+.p1{
+	width: 600px;
+	height: 84px;
+	background-color: #F7F7F7;
+	line-height: 84px;
+	
+}
+.zi{
+	color: #999999;
+	padding: 0 6px;
+}
+.p2{
+	height: 128px;
+	display: flex;
+	align-items: center;
+}
+
+.filmHeader h3{
+	font-size: 18px;
+}
+.p2,.p3{
+	font-size: 12px;
+}
+.sp1{
+	display: inline-block;
+	width: 500px;
+}
+.sp1 span:first-child{
+	color: red;
+	border-color: red;
+}
+.sp1 span{
+	display: inline-block;
+	width: 146px;
+	height: 32px;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 32px;
+	color: #686868;
+	margin-right: 5px;
+}
+.sp1 span:last-child{
+	margin-top: 8px;
+}
+.p3 span{
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 11px;
+	margin-right: 10px;
+}
+.filmHeader button a{
+	color: white;
+}
+.filmHeader button{
+	width: 152px;
+	height: 40px;
+	background-color: red;
+	color: white;
+	font-size: 12px;
+	border: none;
+	line-height: 40px;
+	border-radius: 5px;
+	margin-left: 66px;
+	margin-top: 26px;
+}
+.p4 span:first-child,.p4 span:nth-child(2){
+	color: red;	
+	line-height: 50px;
+}
+.p4 span:first-child{
+	font-size: 16px;
+	margin-right: 5px;
+}
+.p4 span:nth-child(2){
+	font-size: 18px;
+	margin-left: 5px;
+}
+.filmHeader li:last-child{
+	font-size: 12px;
+	padding-left: 10px;
+	padding-right: 15px;
+}
+.bord{
+	border-bottom: 1px dashed #CCCCCC;
+}
+.p5{
+	padding-bottom: 15px;
+	 padding-top: 18px;
+	 font-size: 10px;
+}
+.p6{
+	padding-top: 15px;
+}
+.filmCont{
+	margin: 30px 0;
+	display: flex;
+	justify-content: space-between;
+    
+}
+.filmLeft{
+	width: 920px;
+	background-color: white;
+}
+.filmRight{
+	width: 273px;
+	
+}
+.p7 span{
+	display: inline-block;
+	width: 90px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 12px;
+}
+.p7 span:first-child{
+	color: red;
+	border-top: 2px solid red;
+}
+.left{
+	padding-left: 22px;
+}
+.p8 span:first-child{ 
+	font-size: 17px;
+	display: inline-block;
+	height: 24px;
+	border-left: 2px solid red;
+    line-height: 24px;
+    padding-left: 8px;
+}
+.p8 span:last-child{
+	display: inline-block;
+	width: 788px;
+    height: 24px;
+    /* 这里让下边框线达到居中的效果*/
+    line-height: 50px;
+    border-bottom: 1px dashed #A9A9A9;
+    margin-left: 30px;
+   
+}
+.filmLeft table{
+	margin: 20px 0;
+	margin-left: 124px;
+	 border-collapse:collapse;
+}
+  /*border-collapse:collapse;  表格的边框合并，如果相邻，则共用一个边框。 
+  border-spacing:0px; 设置行与单元格边框的间距。*/
+.filmLeft table tr:first-child{
+	height: 50px;
+}
+.filmLeft table tr:last-child{
+	height: 176px;
+}
+.filmLeft table tr td:first-child,.filmLeft table tr td:nth-child(3){
+	width: 110px;
+	background-color: #EEEEEE;
+}
+.filmLeft table tr td:last-child,.filmLeft table tr td:nth-child(2){
+	width: 260px;
+}
+.filmLeft table td{
+text-align: center;
+font-size: 12px;
+color: #737373;
+border: 1px solid #999999;
+
+}
+.filmLeft table tr:last-child td{
+	vertical-align: top;
+	/* 让表格取消默认垂直居中*/
+	padding-top: 18px;
+}
+.p9{
+	width: 740px;
+	height: 40px;
+	background-color: #EEEEEE;
+    line-height: 40px;
+    font-size: 16px;
+    margin-left: 124px;
+    margin-top: 30px ;
+    margin-bottom: 30px;
+    text-indent: 10px;
+}
+.p10{
+	margin-left: 124px;
+	font-size: 12px;
+	line-height: 23px;
+}
+.zi1{
+    text-indent: 5px;
+	font-size: 13px;
+	color: #CCCCCC;
+	width: 740px;
+	height: 92px;
+	margin-left: 124px;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+.filmLeft input{
+	width: 150px;
+	height: 40px;
+	background-color: red;
+	color: white;
+	line-height: 40px;
+	border: none;
+	border-radius: 5px;
+	margin-left: 145px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.filmLeft ul li{
+	display: flex;
+}
+.listLeft{
+	text-align: center;
+	width: 90px;
+	font-size: 12px;
+}
+.listLeft p{
+	margin-top: 5px;
+}
+.listRight{
+	width: 740px;
+	height: 88px;
+	background-color: #F0F0F0;
+    margin-bottom: 38px;
+    margin-left: 30px;
+}
+.listRight p{
+	font-size: 13px;
+	padding-left: 30px;
+}
+.listRight p:first-child{
+	margin-top: 20px;
+	margin-bottom: 18px;
+}
+.filmLeft ul{
+	padding-bottom: 20px;
+}
+.filmRight ul{
+	padding: 0 5px;
+	padding-bottom: 36px;
+	background-color: white;
+}
+.filmRight .zi2{
+	height: 34px;
+	font-size: 14px;
+	line-height: 34px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.filmRight p{
+	font-size: 12px;
+}
+.zi3 img{
+	margin-top: 26px;
+	margin-bottom: 5px;
+}
+.filmRight ul:first-child li p:first-child{
+	padding: 12px 0;
+}
+.filmRight ul:first-child li p:last-child{
+	padding: 12px 0;
+	border-bottom: 1px dashed #CCCCCC;
+}
+.filmRight ul:last-child li p:last-child{
+	padding: 13px 0;
+	border-bottom: 1px dashed #CCCCCC;
+}
+.filmRight ul:last-child li p:first-child{
+	padding-top: 7px;
+}

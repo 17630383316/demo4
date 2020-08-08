@@ -1,0 +1,40 @@
+.money{
+	display: flex;
+	justify-content: center;
+	background-color: #F5F5F5;
+}
+.moneyBox{
+	width: 1200px;
+	background-color: white;
+	margin-top: 20px;
+	display: flex;
+	margin-bottom: 25px;
+}
+.moneyLeft p{
+	font-size: 13px;
+}
+.moneyLeft{
+	width: 520px;
+	height: 428px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.moneyLeft li:nth-child(2){
+	margin: 30px 0;
+}
+.moneyRight{
+	display: flex;
+	justify-content: center;
+	margin-top: 88px;
+}
+.moneyRight p{
+	font-size: 14px;
+}
+.moneyRight li{
+	margin-bottom: 25px;
+}
+.sp1{
+	margin-left: 15px;
+}

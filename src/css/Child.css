@@ -1,0 +1,162 @@
+.index{
+	display: flex;
+	justify-content:center;
+	background-color: #F5F5F5;
+}
+
+/*.header{
+	width: 1200px;
+	height: 35px;
+	display: flex;
+	justify-content: space-between;
+}
+.header ul{
+	display: flex;
+}
+.header li span{
+	color: red;
+}
+.header li{
+	line-height: 35px;
+	font-size: 12px;
+}
+.header ul:first-child li{
+	padding-right: 20px;
+}
+.header ul:last-child li{
+	padding-left: 20px;
+}
+.header li img{
+	width: 17px;
+	height: 19px;
+	vertical-align: middle;
+	
+}*/
+
+
+.indexBox{
+	width: 1200px;
+}
+.indexTou{
+	padding-bottom: 20px;
+}
+.indexTou,.indexCont,.indexCont3{
+	margin-top: 20px;
+	background-color: white;
+	
+}
+.indexP{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.indexTou ul,.indexCont ul{
+	display: flex;
+	justify-content: space-between;
+}
+.indexTou p{
+	font-size: 12px;
+	padding-top: 10px;
+	padding-left: 3px;
+}
+.indexTou p:last-child{
+	color: #CCCCCC;
+	padding-bottom: 7px;
+}
+.indexTou span{
+	color: black;
+}
+.indexCont{
+	padding-bottom: 20px;
+}
+.list{
+	width: 560px;
+	height: 514px;
+}
+.list ul{
+	height: 514px;
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.indexCont1{
+	padding-top: 20px;
+}
+.indexCont1 p{
+	padding-top: 20px;
+}
+.indexCont1 p{
+	font-size: 14px;
+}
+.indexCont1 span{
+	color: white;
+	display: inline-block;
+   width: 98px;
+   height: 34px;
+   border-radius:15px 15px 0 0 ;
+   text-align: center;
+   line-height: 34px;
+   margin-right: 10px;
+}
+.indexCont1 p span:first-child{
+	color: black;
+	background-color: white;
+}
+.indexCont2{
+	background-color: white;
+}
+.indexCont2 ul{
+	display: flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+    padding-top: 25px;
+}
+.list1{
+	width: 376px;
+	display: flex;
+	padding-bottom: 15px;
+}
+.indexCont2 p{
+	font-size: 12px;
+	color: #4B5160;
+	padding-top: 5px;
+}
+.indexCont2 p:first-child{
+	color: black;
+	padding: 0;
+}
+.list1 div:last-child{
+	padding-left: 10px;
+}
+.indexCont3 ul{
+	display: flex;
+   justify-content: space-between;
+}
+.list2{
+	display: flex;
+	width: 265px;
+}
+.indexCont3{
+	padding-bottom: 20px;
+}
+.ul1{
+display: flex;
+flex-wrap: wrap;
+align-content: space-between;	
+height: 367px;
+width: 866px;
+}
+.ul1 p{
+	font-size: 12px;
+	color: #4B5160;
+	padding-bottom: 6px;
+}
+.ul1 p:first-child{
+	color: black;
+	padding-bottom: 42px;
+	
+}
+.indexCont4{
+	padding: 20px 0; 
+}

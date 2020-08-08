@@ -1,0 +1,59 @@
+.my{
+	display: flex;
+	justify-content: center;
+	background-color: #F5F5F5;
+}
+.myBox{
+	width: 1200px;
+	background-color: white;
+	margin: 20px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.myLeft{
+	width: 198px;
+}
+.myLeft span img{
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+.myLeft .router-link-active{
+	color: red;
+	border-right: 1px solid red;
+	width: 100%;
+	height: 100%;
+}
+.myLeft ul{
+	border: 1px solid #CCCCCC;
+}
+.myLeft li img{
+	padding-right: 24px;
+}
+.myLeft li a{
+	color: black;
+	padding-left: 24px;
+}
+.myLeft li span:first-child{
+	margin-left: 24px;
+}
+.myLeft li{
+	box-sizing: border-box;
+	height: 44px;
+	line-height: 44px;
+	font-size: 12px;
+	display: flex;
+	justify-content: space-between;
+}
+.myLeft li:first-child{
+	height: 50px;
+	line-height: 50px;
+	color: white;
+	background-color: #FF5C44;
+}
+.myLeft .li1{
+	padding-left: 20px;
+}
+.myRight{
+	width: 980px;
+}

@@ -1,0 +1,60 @@
+.pay{
+	display: flex;
+	justify-content: center;
+	background-color: #F5F5F5;
+}
+.payBox{
+	width: 1200px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+.payCont{
+	width: 1160px;
+}
+.payCont div:first-child {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.payCont table{
+	border-collapse: collapse;
+}
+.payCont table tr:first-child{
+	background-color: #F8F8F9;
+}
+.payCont table td{
+	padding-left: 20px;
+	font-size: 12px;
+	width: 290px;
+	height: 43px;
+	border: 1px solid #CCCCCC;
+}
+.payContent img{
+	width: 75px;
+	height: 28px;
+	padding-left: 8px;
+	vertical-align: middle;
+}
+.payContent p:first-child{
+	padding:15px 0 ;
+	font-size: 14px;
+}
+.payContent p:first-child span{
+	color: red;
+}
+.payContent button{
+	width: 116px;
+	height: 34px;
+	background-color: red;
+	color: white;
+	font-size: 12px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+.payContent button a{
+	color: white;
+}
