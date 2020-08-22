@@ -21,7 +21,7 @@
  		<div class="indexTou">
  			<p class="indexP"><img src="../assets/qinzi_06_07.png" /></p>
  			<ul style="width: 1140px; margin: 0 auto;">
- 				<li v-for="item in shuzu">
+ 				<li v-for="(item,index) in shuzu" :key="index">
  					<img :src="item.info"/>
  					<p>{{item.name}}</p>
  					<p>票价:<span>{{item.name1}}</span>起</p>
@@ -34,7 +34,7 @@
  				<li><img src="../assets/qinzi_14.png"/></li>
  				<li class="list">
  					<ul>
- 						<li v-for="item in shuzu1">
+ 						<li v-for="item in shuzu1" :key="item">
  							<img :src="item.info"/>
  						</li>
  					</ul>
@@ -48,7 +48,7 @@
  		</div>
  		<div class="indexCont2">
  			<ul style="width: 1140px; margin: 0 auto;">
- 				<li v-for="item in shuzu2" class="list1">
+ 				<li v-for="item in shuzu2" class="list1" :key="item">
  					<div><img :src="item.info"/></div>
  				    <div>
  				    	<p>{{item.name}}</p>
@@ -65,7 +65,7 @@
  				<li><img src="../assets/qinzi_54.png"/></li>
  				<li>
  					<ul class="ul1" >
- 						<li v-for="item in shuzu3" class="list2">
+ 						<li v-for="item in shuzu3" class="list2" :key="item">
  							<div><img :src="item.info"/></div>
  							<div>
  								<p>{{item.name}}</p>
